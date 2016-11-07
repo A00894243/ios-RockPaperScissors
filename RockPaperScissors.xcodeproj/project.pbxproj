@@ -14,6 +14,10 @@
 		3FFA43401DD024A900D2BA1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA433E1DD024A900D2BA1E /* LaunchScreen.storyboard */; };
 		3FFA434B1DD024A900D2BA1E /* RockPaperScissorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA434A1DD024A900D2BA1E /* RockPaperScissorsTests.swift */; };
 		3FFA43561DD024A900D2BA1E /* RockPaperScissorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA43551DD024A900D2BA1E /* RockPaperScissorsUITests.swift */; };
+		3FFA43661DD025E500D2BA1E /* rock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA43631DD025E500D2BA1E /* rock.jpg */; };
+		3FFA43671DD025E500D2BA1E /* scissors.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA43641DD025E500D2BA1E /* scissors.jpg */; };
+		3FFA43681DD025E500D2BA1E /* paper.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3FFA43651DD025E500D2BA1E /* paper.jpg */; };
+		3FFA436B1DD02DA500D2BA1E /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFA436A1DD02DA500D2BA1E /* InstructionsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		3FFA43511DD024A900D2BA1E /* RockPaperScissorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RockPaperScissorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FFA43551DD024A900D2BA1E /* RockPaperScissorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RockPaperScissorsUITests.swift; sourceTree = "<group>"; };
 		3FFA43571DD024A900D2BA1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FFA43631DD025E500D2BA1E /* rock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rock.jpg; sourceTree = "<group>"; };
+		3FFA43641DD025E500D2BA1E /* scissors.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scissors.jpg; sourceTree = "<group>"; };
+		3FFA43651DD025E500D2BA1E /* paper.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = paper.jpg; sourceTree = "<group>"; };
+		3FFA436A1DD02DA500D2BA1E /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +105,11 @@
 		3FFA43341DD024A900D2BA1E /* RockPaperScissors */ = {
 			isa = PBXGroup;
 			children = (
+				3FFA43691DD025EE00D2BA1E /* images */,
 				3FFA43351DD024A900D2BA1E /* AppDelegate.swift */,
 				3FFA43371DD024A900D2BA1E /* ViewController.swift */,
 				3FFA43391DD024A900D2BA1E /* Main.storyboard */,
+				3FFA436A1DD02DA500D2BA1E /* InstructionsViewController.swift */,
 				3FFA433C1DD024A900D2BA1E /* Assets.xcassets */,
 				3FFA433E1DD024A900D2BA1E /* LaunchScreen.storyboard */,
 				3FFA43411DD024A900D2BA1E /* Info.plist */,
@@ -123,6 +133,16 @@
 				3FFA43571DD024A900D2BA1E /* Info.plist */,
 			);
 			path = RockPaperScissorsUITests;
+			sourceTree = "<group>";
+		};
+		3FFA43691DD025EE00D2BA1E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				3FFA43631DD025E500D2BA1E /* rock.jpg */,
+				3FFA43641DD025E500D2BA1E /* scissors.jpg */,
+				3FFA43651DD025E500D2BA1E /* paper.jpg */,
+			);
+			name = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +254,9 @@
 			files = (
 				3FFA43401DD024A900D2BA1E /* LaunchScreen.storyboard in Resources */,
 				3FFA433D1DD024A900D2BA1E /* Assets.xcassets in Resources */,
+				3FFA43681DD025E500D2BA1E /* paper.jpg in Resources */,
+				3FFA43661DD025E500D2BA1E /* rock.jpg in Resources */,
+				3FFA43671DD025E500D2BA1E /* scissors.jpg in Resources */,
 				3FFA433B1DD024A900D2BA1E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +282,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FFA436B1DD02DA500D2BA1E /* InstructionsViewController.swift in Sources */,
 				3FFA43381DD024A900D2BA1E /* ViewController.swift in Sources */,
 				3FFA43361DD024A900D2BA1E /* AppDelegate.swift in Sources */,
 			);
