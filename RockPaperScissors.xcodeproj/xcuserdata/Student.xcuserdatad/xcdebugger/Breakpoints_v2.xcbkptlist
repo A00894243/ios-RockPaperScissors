@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RockPaperScissors/ViewController.swift"
+            timestampString = "500180902.562955"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RockPaperScissors.ViewController"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Student/Desktop/RockPaperScissors/RockPaperScissors/ViewController.swift"
+                  timestampString = "500181391.931379"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; RockPaperScissors.ViewController"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Student/Desktop/RockPaperScissors/RockPaperScissors/ViewController.swift"
+                  timestampString = "500181391.933323"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RockPaperScissors.ViewController&gt;"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Student/Desktop/RockPaperScissors/RockPaperScissors/ViewController.swift"
+                  timestampString = "500181391.935764"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RockPaperScissors.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;RockPaperScissors.ViewController&gt;"
+                  moduleName = "RockPaperScissors"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Student/Desktop/RockPaperScissors/RockPaperScissors/ViewController.swift"
+                  timestampString = "500181391.93819"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
