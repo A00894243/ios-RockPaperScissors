@@ -216,6 +216,7 @@
 				TargetAttributes = {
 					3FFA43311DD024A800D2BA1E = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = SU5MY7Y58C;
 						ProvisioningStyle = Automatic;
 					};
 					3FFA43451DD024A900D2BA1E = {
@@ -440,6 +441,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU5MY7Y58C;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = assignment.RockPaperScissors;
@@ -452,6 +454,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SU5MY7Y58C;
 				INFOPLIST_FILE = RockPaperScissors/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = assignment.RockPaperScissors;
